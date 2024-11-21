@@ -1,0 +1,28 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+#hint{
+    z-index: 2;
+    margin-top: 10px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    opacity: 1; /* Initial opacity */
+    transition: opacity 3s; /* Transition to opacity over 3 seconds */
+}
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: -1;
+}
